@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohit Verma | Data Scientist</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script> <!-- icons -->
+</head>
+<body>
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="container nav-wrapper">
+      <a href="#" class="logo">Mohit Verma</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="container hero-inner">
+      <img src="assets/photo.jpg" alt="profile" class="hero-img" />
+      <h1>Hi, I'm <span class="highlight">Mohit Verma</span></h1>
+      <p class="subtitle">Recent CS Graduate · Turning Data into Decisions</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn primary">See My Work</a>
+        <a href="assets/resume.pdf" target="_blank" class="btn ghost">Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I recently graduated with a BCA degree and completed a rigorous 6-month data-science bootcamp.
+        I love cleaning messy data, building predictive models, and communicating insights with crisp visualizations.
+        When I’m not coding, you’ll find me on Kaggle.
+      </p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <img src="assets/project/churn.png" alt="Churn" />
+          <div class="card-body">
+            <h3>Telco Customer Churn Prediction</h3>
+            <p>Built a Random-Forest model that predicts churn with 89 % accuracy and reveals key drivers using SHAP.</p>
+            <div class="tags">
+              <span>Python</span><span>Scikit-learn</span><span>SHAP</span><span>Streamlit</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/you/churn" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="https://share.streamlit.io/you/churn" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <img src="assets/project/nlp.png" alt="NLP" />
+          <div class="card-body">
+            <h3>Reddit Finance Sentiment Analyzer</h3>
+            <p>Scraped 200 k posts, fine-tuned BERT for sentiment, and served predictions via FastAPI.</p>
+            <div class="tags">
+              <span>Transformers</span><span>FastAPI</span><span>Docker</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/you/sentiment" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="https://sentiment-demo.you.vercel.app" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <img src="assets/project/recommender.png" alt="Rec" />
+          <div class="card-body">
+            <h3>Book Recommender System</h3>
+            <p>Hybrid collaborative-filtering + content-based model; deployed mini-version on Flask.</p>
+            <div class="tags">
+              <span>Surprise</span><span>Flask</span><span>Heroku</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/you/recommender" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="https://book-rec.herokuapp.com" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills & Tools</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h4>Languages</h4>
+          <ul>
+            <li>Python</li><li>SQL</li><li>R</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h4>Libraries</h4>
+          <ul>
+            <li>pandas, numpy</li><li>scikit-learn</li><li>TensorFlow</li><li>PyTorch</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h4>Viz & BI</h4>
+          <ul>
+            <li>Matplotlib</li><li>Seaborn</li><li>Plotly</li><li>Tableau</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h4>Other</h4>
+          <ul>
+            <li>Git</li><li>Docker</li><li>AWS</li><li>Spark</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container contact-box">
+      <h2>Let's Connect</h2>
+      <a href="mailto:thisismohitstm@gmail.com" class="btn primary">Click here to Connect</a>
+      <div class="social">
+        <a href="https://linkedin.com/in/you" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/you" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://kaggle.com/you" target="_blank"><i class="fab fa-kaggle"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>© <span id="year"></span> Mohit.built with ❤.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
