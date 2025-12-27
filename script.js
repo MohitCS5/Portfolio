@@ -20,16 +20,6 @@ tsParticles.load("particles", {
     }
   }
 });
-// tsParticles.load("particles",{
-//   fpsLimit:60,
-//   particles:{
-//     number:{value:80,density:{enable:true,area:800}},
-//     color:{value:"#00c3ff"},
-//     links:{enable:true,color:"#764ba2",distance:150,opacity:0.2},
-//     move:{enable:true,speed:2}
-//   },
-//   interactivity:{detectsOn:"canvas",events:{onHover:{enable:true,mode:"repel"}}}
-// });
 
 // tilt effect on cards
 VanillaTilt.init(document.querySelectorAll(".project-card"),{
